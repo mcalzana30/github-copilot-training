@@ -24,7 +24,7 @@
 ### 🧠 **Lesson Learned: Context, Control & Autonomy**
 * **Global Constraints:** 🛡️ Use the **`.github/copilot-instructions.md`** file for project-wide rules and architectural standards.
 * **External Tool Agents:** 🤖
-    * `@workspace` — query project structure, inspect files, and read configuration.
+    * `@workspace` — query project structure, inspect files, and read configuration. TODO: what is `@workspace`??
     * `@terminal` — provide exact CLI commands and command-line assistance.
     * `@vscode` — report editor/IDE diagnostics and help troubleshoot workspace-specific issues.
 * **Context Control:** 🎯 For local, precise questions, use **Chat Variables** (`#selection` and `#file`) to enforce focus on precise code blocks or files.
